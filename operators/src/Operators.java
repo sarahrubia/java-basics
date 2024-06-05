@@ -70,6 +70,32 @@ public class Operators {
     boolean isTrue = true;
 
     System.out.println("Inverteu, agora é: " + !isTrue);
+
+    // ternary operators
+    String a = "a";
+    String b = "b";
+    String trueOrFalse = a == b ? "true" : "false";
+    System.out.println(trueOrFalse);
+
+    // relational operator
+
+    int number1 = 1;
+    int number2 = 2;
+
+    if (number1 > number2)
+      System.out.print("Numero 1 maior que numero 2");
+
+    if (number1 < number2)
+      System.out.print("Numero 1 menor que numero 2");
+
+    if (number1 >= number2)
+      System.out.print("Numero 1 maior ou igual que numero 2");
+
+    if (number1 <= number2)
+      System.out.print("Numero 1 menor ou igual que numero 2");
+
+    if (number1 != number2)
+      System.out.print("Numero 1 é diferente de numero 2");
   }
 
 }
